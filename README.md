@@ -1,12 +1,11 @@
 # ✨ NovaFlow Enterprise System
 
-![NovaFlow Banner](https://via.placeholder.com/1000x300/0f172a/ffffff?text=NovaFlow+Enterprise+Management+System)
 
 **NovaFlow** is a modern, robust desktop application designed to streamline enterprise resource management. From employee tracking to inventory control, NovaFlow provides a unified interface for managing your business operations.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 🔐 Secure Authentication
 - **Modern Login UI**: Split-screen design with a dark aesthetic.
@@ -29,7 +28,7 @@
 
 ---
 
-## 🎨 UI/UX Design
+## UI/UX Design
 The application features a custom **Dark Navy (#0f172a)** theme, providing a professional and consistent user experience.
 - **Consistent Headers**: All dialogs share a unified branding style.
 - **Validation**: Real-time form validation with clear error messages.
@@ -37,7 +36,7 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Language**: Python 3.x
 - **GUI Framework**: Tkinter (Native)
 - **Database**: MySQL (via `pymysql`)
@@ -45,12 +44,12 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/novaflow.git
-    cd novaflow
+    git clone https://github.com/wajidcodes/NovaFlow-Company-Management-System-Python-MySQL-.git
+   cd NovaFlow-Company-Management-System-Python-MySQL-
     ```
 
 2.  **Install Dependencies**
