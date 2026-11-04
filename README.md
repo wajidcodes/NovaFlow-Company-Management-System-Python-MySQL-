@@ -49,7 +49,7 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/wajidcodes/NovaFlow-Company-Management-System-Python-MySQL-.git
-   cd NovaFlow-Company-Management-System-Python-MySQL-
+    cd NovaFlow-Company-Management-System-Python-MySQL-
     ```
 
 2.  **Install Dependencies**
@@ -59,7 +59,7 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 
 3.  **Database Configuration**
     - Ensure your MySQL server is running.
-    - Import the database schema (provided separately).
+    - Import the database schema from [`Database/schema.sql`](Database/schema.sql).
     - Update `config/database.py` with your credentials.
 
 4.  **Run the Application**
