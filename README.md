@@ -44,6 +44,29 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 
 ---
 
+## Project Structure
+
+```text
+.
+├── main.py                 # Application entry point
+├── Database/               # schema.sql, Schema_legacy.sql, add_project.sql
+├── config/                 # Database configuration (database.py)
+├── dialogs/                # UI dialogs
+├── models/                 # Data models
+├── services/               # Business logic
+├── utils/                  # Helper utilities
+├── views/                  # UI views
+├── Users/                  # User-related modules
+├── Style/                  # UI styling
+├── Images/                 # Image assets
+├── requirements.txt        # Python dependencies
+├── REQUIREMENTS.md         # System requirements
+├── .env.example            # Example environment variables
+└── LICENSE.md              # MIT License
+```
+
+---
+
 ## Installation & Setup
 
 1.  **Clone the Repository**
