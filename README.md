@@ -98,5 +98,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ---
 
 <p align="center">
-  Built with ❤️ by the NovaFlow Team
+  Built with ❤️ by <a href="https://github.com/wajidcodes">Wajid Ali</a> · <a href="https://wajidali-portfolio.vercel.app">Portfolio</a>
 </p>
