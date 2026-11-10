@@ -83,7 +83,11 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 3.  **Database Configuration**
     - Ensure your MySQL server is running.
     - Import the database schema from [`Database/schema.sql`](Database/schema.sql).
-    - Update `config/database.py` with your credentials.
+    - Copy `.env.example` to `.env` and fill in your MySQL credentials:
+      ```bash
+      cp .env.example .env
+      ```
+      The app reads `DB_HOST`, `DB_USER`, `DB_PASSWORD` and `DB_NAME` from `.env`, so there is no need to edit `config/database.py`.
 
 4.  **Run the Application**
     ```bash
