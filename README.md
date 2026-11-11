@@ -80,14 +80,19 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
     pip install -r requirements.txt
     ```
 
-3.  **Database Configuration**
-    - Ensure your MySQL server is running.
-    - Import the database schema from [`Database/schema.sql`](Database/schema.sql).
+3.  **Set up MySQL (required — the app cannot run without it)**
+    - Install **MySQL 8.0 or higher** and make sure the server is running.
+    - Import the schema. This creates the `company_management` database, 18 tables, and seed data (94 people, plus departments, projects, products and orders):
+      ```bash
+      mysql -u root -p < Database/schema.sql
+      ```
     - Copy `.env.example` to `.env` and fill in your MySQL credentials:
       ```bash
       cp .env.example .env
       ```
       The app reads `DB_HOST`, `DB_USER`, `DB_PASSWORD` and `DB_NAME` from `.env`, so there is no need to edit `config/database.py`.
+    - **Why this step is required:** the login screen checks your email and password against the database on the first attempt (`services/auth_service.py` calls `get_db_connection()`), so without a running MySQL server, the imported schema and a filled `.env`, you cannot get past login. There is no offline or demo mode.
+    - **Demo login (seed data):** after importing the schema, sign in with `wajid.ali@company.com` / `password123`. This is a seeded demo account from `Database/schema.sql` — change its password before any real use.
 
 4.  **Run the Application**
     ```bash
