@@ -25,6 +25,11 @@
 ### 📊 Project & Work Logs
 - **Project Tracking**: Manage generic projects with budgets, timelines, and locations.
 - **Work Logs**: Employees can submit daily work hours logged against specific projects.
+## Screenshots
+
+![NovaFlow login screen](Images/novaflow_login_screenshot.png)
+
+*Login screen of the NovaFlow desktop app.*
 
 ---
 
