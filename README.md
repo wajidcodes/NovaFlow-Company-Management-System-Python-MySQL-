@@ -46,6 +46,7 @@ The application features a custom **Dark Navy (#0f172a)** theme, providing a pro
 - **GUI Framework**: Tkinter (Native)
 - **Database**: MySQL (via `pymysql`)
 - **Assets**: PIL (Pillow) for image rendering
+- **Configuration**: python-dotenv for loading `.env` environment variables
 
 ---
 
