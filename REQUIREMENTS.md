@@ -13,6 +13,7 @@ The following Python packages are required. You can install them using `pip`.
 | `pymysql` | Latest | Connects to the MySQL database. |
 | `Pillow` | Latest | Handles image processing for UI assets. |
 | `tkinter` | Built-in | The Standard Python GUI library (usually comes with Python). |
+| `python-dotenv` | Latest | Loads environment variables from the `.env` file. |
 
 ## 🛠️ Installation
 Run the following command in your terminal to install all dependencies:
